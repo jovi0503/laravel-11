@@ -28,6 +28,7 @@ services:
 
     # db mysql
     db:
+        container_name: mysql
         image: mysql:8.0
         platform: linux/x86_64
         restart: unless-stopped

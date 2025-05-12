@@ -64,7 +64,7 @@ extra:
 Caso o phpmyadmin apresente o erro: 
 mysql::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for db failed: Name or service not known
 Utilize este código no docker-compose.yml:
-```ymal
+```yaml
 version: '3.8'
 
 services:

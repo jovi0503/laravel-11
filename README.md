@@ -128,7 +128,7 @@ services:
       PMA_PORT: 3306
       PMA_ARBITRARY: 0
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-root}
-    networks:
+    networks:        
       - laravel
 
   redis:
